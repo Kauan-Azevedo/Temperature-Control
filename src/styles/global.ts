@@ -2,8 +2,8 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
     :root{
-        --primary-color: #2831e2;
-        --secondary-color: #f7ed36;
+        --primary-color: #D43340;
+        --secondary-color: #F6B03B;
 
         --text-color: #faf9db;
         --bg-color: #0d0e1f;
@@ -18,6 +18,7 @@ export default createGlobalStyle`
     body{
         background-color: var(--bg-color);
         color: var(--text-color);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     a{
